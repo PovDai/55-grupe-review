@@ -95,17 +95,35 @@ header{
 }
 .turinys-desineje{
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
 }
+.zvaigzdutes{
+    margin-left: 15px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
 .fa-star{
     color: #F9A125;
     text-decoration: none;
-    gap: 20px;
+    gap: 10px;
+    line-height: 1.2;
+}
+
+.atsiliepimas{
+    line-height: 1.2em;
+    margin-top: 0px;
+    display: flex;
+    width: 80%;
+    margin-left: 15px;
 }
 .autorius{
+    display: flex;
+    margin-left: 10px;
+    width: 30%;
     position: relative;
     padding-left: 10px;
 }
@@ -113,7 +131,7 @@ header{
     content: '';
     display: block;
     width: 2px;
-    height: 35px;
+    height: 40px;
     background-color: #90A57C;
     position: absolute;
     left: 0;
@@ -121,12 +139,13 @@ header{
     transform: translateY(-50%); /* Centruojame vertikaliai */
 }
 .autoriaus-h4{
-    margin-top: 0px;
+    margin-top: -10px;
     font-weight: none;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-size: 13px;
 }
 .autoriaus-tekstas{
+    display: flex;
     color:gray;
     font-size: 10px;
 }
@@ -201,6 +220,7 @@ main{
 }
 
 .apacios-mygtukas{
+    margin-top: 15px;
     background-color:#96A378;
     color: white;
     border: none;
@@ -217,5 +237,5 @@ main{
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 30px;
-    position: absolute; z-index: 1;margin-top: 60px;margin-left:-56px;
+    position: absolute; z-index: 1;margin-top: 50px;margin-left:-56px;
 }
