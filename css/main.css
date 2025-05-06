@@ -117,7 +117,8 @@ header{
     line-height: 1.2em;
     margin-top: 0px;
     display: flex;
-    width: 80%;
+    align-content: center;
+    width: 73%;
     margin-left: 15px;
 }
 .autorius{
